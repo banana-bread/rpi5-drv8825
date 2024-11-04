@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rpi5-drv8825"
+version = "0.1.0"
+description = ""
+authors = ["Adriano Dramisino <adriano.dramisino@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gpiozero = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
